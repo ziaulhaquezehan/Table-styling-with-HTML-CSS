@@ -1,0 +1,36 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    
+  
+}
+th{
+    background-color: khaki;
+    height: 30px;
+    text-decoration: underline;
+    
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: paleturquoise;
+}
+tr:hover{
+    background-color: olivedrab;
+}
+caption{
+    height: 30px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
